@@ -1,7 +1,14 @@
-# slack-testing-python-slash-command
+## **Slack Testing**
+## of *Request Signing*
+## using a *Slash Command*
+## in *Python*
+
+---
 
 ### Run Flask Server:
 
-1. `set FLASK_APP=hello-there.py`
+1. `pipenv shell`
 
-2. `python -m flask run`
+2. `set FLASK_APP=hello-there-x.py`
+
+3. `python -m flask run`
