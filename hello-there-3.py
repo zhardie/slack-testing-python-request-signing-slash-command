@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 def handle(request):
 
-    request_body = request.get_data()
+    request_body = request.get_data().decode('utf-8')
 
     print(request_body)
 
